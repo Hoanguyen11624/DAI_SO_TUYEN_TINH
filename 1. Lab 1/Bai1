@@ -11,7 +11,7 @@ print(danhsach_gapdoi)
 print(danhsach*2)
 
 #
-print(danhsach/2)
+#print(danhsach/2)
 
 #
 mon_hoc = ["ToanCC", "DSTT", "ToanRR", "LaptrinhCB"]
@@ -26,7 +26,9 @@ print(tap_hop)
 
 #
 lay_TT, lay_monhoc , lay_diem = zip(*anh_xa)
+print(lay_TT)
 print(lay_monhoc)
+print(lay_diem)
 
 #
 import itertools
@@ -44,4 +46,9 @@ print(a,b,c)
 a=b=c=0
 mylist = []
 import importlib.util
-print(importlib.util.execfile('d:/thucthi1.py'))
+print(execfile('d:/HOA/thucthi1.py'))
+
+#
+def tao_danh_sach():
+    danhsach = [100,200,300]
+    return danhsach
